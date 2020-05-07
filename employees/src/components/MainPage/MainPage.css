@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #f1f0ff;
+}
+
+
+
+.logInContainer {
+  position: absolute;
+  background-color: white;
+  width: 400px;
+  height: 220px;
+  top: 40%;
+  right: 36%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 0 #a1a1a1;
+}
+
+.logInContainer div {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.logInContainer input {
+  width: 50%;
+  padding: 0 5px;
+}
+
+.logInContainer input.logInButton {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(48, 48, 185);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+}
+
+.labelLogin {
+  width: 100px;
+}
+
+.profilePhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 20px;
+  float: left;
+}
+
+.addressBook:hover, .profile:hover, .directButton:hover, .switchButton:hover, .request:hover {
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.typesOfSearchContainer {
+  display: flex;
+  height: 60px;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.basicSearch {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-bottom: 2px solid blue;
+  margin-right: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.advancedSearch {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.searchBlock {
+  margin-top: 2px;
+  width: 310px;
+  background-color: white;
+  height: 100px;
+  padding: 30px;
+  box-shadow: 0 2px 6px 0 #a1a1a1;
+  border-radius: 5px;
+}
+
+.searchInput {
+  width: 90%;
+  border-radius: 3px;
+  height: 35px;
+  border: 1px solid #b9b9b96b;
+  padding: 0 5% ;
+}
+
+.searchButton {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #6688f7;
+  height: 35px;
+  margin-top: 15px;
+  color: white;
+  border: 1px solid #6688f7;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.employees {
+  width: 700px;
+}
+
+.peopleContainerTile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.peopleContainerList {
+  display: block;
+}
+
+.infoList {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 6px 0 #a1a1a1;
+  width: 100%;
+}
+
+.infoList > div {
+  margin-right: 3%;
+  display: flex;
+}
+
+.infoList > div+div {
+  margin-right: 19%;
+  display: flex;
+}
+
+.infoList>div+div+div+div {
+  margin-right: 0;
+  display: flex;
+}
+
+.infoList img {
+  width: 15px;
+  float: left;
+  margin-right: 8px;
+}
+
+.peopleList {
+  margin-top: 30px;
+  box-shadow: 0 2px 6px 0 #a1a1a1;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.info {
+  height: 60px;
+  align-items: center;
+}
+
+.display {
+  width: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display img {
+  width: 20px;
+  cursor: pointer;
+  filter: invert(50%);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+a .nameEnList, a .nameRuList{
+  text-decoration: none;
+}
+
+.display img.activeDisplayIcon {
+  filter: invert(0);
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "nameEn": "Dzmitry A",
+    "nameRu": "Дмитрий А",
+    "image": "../../img/user.png",
+    "position": "Web & Mobile",
+    "cabinet": "1608",
+    "username": "DzmitryA",
+    "password": "111",
+    "role": "admin"
+  },
+
+  {
+    "nameEn": "Aleh Z",
+    "nameRu": "Олег Ж",
+    "image": "img/user.png",
+    "position": "Web & Mobile",
+    "cabinet": "1608",
+    "username": "AlehZ",
+    "password": "222",
+    "role": "editor"
+  },
+
+  {
+    "nameEn": "Maxim P",
+    "nameRu": "Максим П",
+    "image": "img/user.png",
+    "position": "Web & Mobile",
+    "cabinet": "1608",
+    "username": "MaximP",
+    "password": "333",
+    "role": "user"
+  },
+
+  {
+    "nameEn": "Anna B",
+    "nameRu": "Анна Б",
+    "image": "img/user.png",
+    "position": "Web & Mobile",
+    "cabinet": "1608",
+    "username": "AnnaB",
+    "password": "444",
+    "role": "user"
+  },
+
+  {
+    "nameEn": "Vitaliy V",
+    "nameRu": "Виталий В",
+    "image": "img/user.png",
+    "position": "Web & Mobile",
+    "cabinet": "1608",
+    "username": "VitaliyV",
+    "password": "555",
+    "role": "user"
+  },
+
+  {
+    "nameEn": "Stepan S",
+    "nameRu": "Степан С",
+    "image": "img/user.png",
+    "position": "Web & Mobile",
+    "cabinet": "1608",
+    "username": "StepanS",
+    "password": "222",
+    "role": "user"
+  }
+]

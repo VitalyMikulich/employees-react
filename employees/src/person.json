@@ -1,0 +1,16 @@
+[{
+  "img": "img/user.png",
+  "nameEn": "Andrey Andreev",
+  "nameRu": "Андрей Андреевич Андреев",
+  "id": "123",
+  "businessCard": "Business card",
+  "department": "Web&Mobile",
+  "room": "1607",
+  "intemalPhone": "123",
+  "mobilePhone": "+372 29 1234567",
+  "email": "andr.andr@gmail.com",
+  "skype": "a.andr",
+  "cNumber": "C5200001",
+  "hireDate": "12 Jan 2010",
+  "status": "Active"
+}]

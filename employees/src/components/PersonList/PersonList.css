@@ -1,0 +1,45 @@
+.personList {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-bottom: 1px solid #a1a1a1;
+  font-size: 13px;
+  transition: .3s;
+}
+
+.personList:hover {
+  background-color: rgb(245, 245, 245);
+  transition: .5s;
+}
+
+.personList div {
+  color: black;
+}
+
+.personList img {
+  width: 50px;
+  float: left;
+  border-radius: 35px;
+  margin-right: 13%;
+}
+
+.nameEnList {
+  color: black;
+  font-size: 17px;
+  width: 240px;
+}
+
+.nameRuList {
+  font-size: 13px;
+  color: #a7a7a7;
+  margin-top: 5px;
+}
+
+.imgNameList {
+  margin-right: 3%;
+}
+
+.personList>div+div+div {
+  margin-left: 22%;
+}

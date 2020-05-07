@@ -1,0 +1,50 @@
+.settingsPageContainer  {
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  padding-top: 20px;
+}
+
+.roles {
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+
+.settingsPageContainer .searchContainer {
+  border-top: 1px solid #dadaff94;
+  border-bottom: 1px solid #dadaff94;
+  padding: 15px 0;
+  display: flex;
+}
+
+.settingsPageContainer .searchContainer input {
+  margin-left: 15px;
+  margin-right: 40px;
+  width: 24%;
+  padding-left: 10px;
+}
+
+.settingsPageContainer .searchContainer div {
+  border-left: 1px solid #dadaff94;
+  border-right: 1px solid #dadaff94;
+  padding: 0 20px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.settingsPageContainer .searchContainer input+div {
+  width: 24%;
+  border-right: none;
+}
+
+.settingsPageContainer .searchContainer div+div {
+  width: 28%;
+  border-right: none;
+}
+
+.settingsPageContainer .searchContainer div+div+div {
+  width: 6%;
+  display: flex;
+  justify-content: center;
+}
